@@ -1,0 +1,231 @@
+@media (min-width:993px) and (max-width:1200px) {
+    .nav-my-btn {
+        display: none !important;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:992px) {
+    .nav-my-btn {
+        display: none !important;
+    }
+
+    .header-contact-info {
+       justify-content: center !important;
+    }
+    .header-info-icon {
+        justify-content: center;
+    }
+
+    .hero-badge {
+       
+        
+        justify-content: center !important;
+    }
+
+
+    .hero-image-heading {
+        font-size: 37px !important;
+        text-align: center !important;
+    }
+
+    .hero-image-para {
+        text-align: center !important;
+    }
+
+    .floating-card {
+    bottom: 50px !important;
+    left: 20px !important;
+}
+
+.milestone-card::before {
+    display: none;
+}
+
+.milestone-top-border {
+    border: none !important;
+}
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .nav-my-btn {
+        display: none !important;
+    }
+
+    .header-contact-info {
+       justify-content: center !important;
+    }
+    .header-info-icon {
+        justify-content: center;
+    }
+     .hero-image-heading {
+        font-size: 37px !important;
+        text-align: center !important;
+    }
+
+    .hero-image-para {
+        text-align: center !important;
+    }
+
+        .floating-card {
+    bottom: 50px !important;
+    left: 20px !important;
+}
+
+.floating-info h4 {
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+}
+
+.floating-info p {
+    font-size: 12px !important;
+    
+}
+
+.floating-card i{
+    font-size: 18px !important;
+}
+
+.featured-icon {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+}
+
+ .cta-banner-main {
+    border-left: 0 !important;
+    border-top: 5px solid rgb(195, 57, 72);
+   }
+
+   .milestone-card::before {
+
+
+    display: none;
+}
+
+.milestone-top-border {
+    border: none !important;
+}
+
+}
+
+
+
+
+@media  (max-width:576px) {
+    .nav-my-btn {
+        display: none !important;
+    }
+
+    .header-contact-info {
+       justify-content: center !important;
+    }
+    .header-info-icon {
+        justify-content: center;
+    }
+
+    .hero-badge {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+      .hero-image-heading {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+
+    .hero-image-para {
+        text-align: center !important;
+    }
+
+    .hero-primary, .hero-secondary{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+       .floating-card {
+    bottom: 50px !important;
+    left: 20px !important;
+}
+
+.floating-info h4 {
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+}
+
+.floating-info p {
+    font-size: 12px !important;
+    
+}
+
+.floating-card i{
+    font-size: 18px !important;
+}
+
+.hero-stats {
+    padding: 16px !important;
+}
+
+.stats-item h3{
+    font-size: 20px !important;
+}
+
+.stats-item p{
+    font-size: 14px !important;
+}
+       
+
+    .featured-icon {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    }
+
+   .cta-banner-main {
+    border-left: 0 !important;
+    border-top: 5px solid rgb(195, 57, 72);
+   }
+
+   .section-3-title {
+    font-size: 27px !important;
+   }
+
+   .milestone-card::before {
+    display: none;
+}
+
+.milestone-top-border {
+    border: none !important;
+}
+
+.milestone-section {
+    margin: 30px auto !important;
+}
+
+.stats-card {
+    width: 100% !important;
+    justify-content: center;
+}
+
+.featured-content h3 {
+    font-size: 20px;
+}
+
+.featured-content p {
+    font-size: 14px;
+}
+
+.section-title p {
+   font-size: 14px;
+}
+   
+    .section-title h1 {
+   font-size: 22px !important;
+   
+}
+
+}
+
+
+
