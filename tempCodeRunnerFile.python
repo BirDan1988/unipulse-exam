@@ -1,0 +1,25 @@
+#print("welcome to python")
+#print("creative katargam")
+
+#print("creative",end="\n\n")
+#print("katargam")
+
+#print("creative,katargam,branch",sep="\t\t")
+
+# a=10
+# print(a,type(a))
+# b=10.44
+# print(b,type(b))
+# c="welcome"
+# print(c,type(c))
+# d="true"
+# print(d,type(d))
+# e="none"
+# print(e,type(e))
+
+#"Arithmetic opretor"
+print(10+20)
+print(20-10)
+print(10*2)
+print(10/3)
+print(100%3)
