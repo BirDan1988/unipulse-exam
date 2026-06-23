@@ -108,6 +108,11 @@
     border: none !important;
 }
 
+.student-block-content h2 {
+    font-size: 20px !important;
+    
+
+}
 }
 
 
@@ -225,7 +230,13 @@
    
 }
 
+.student-block-content h2 {
+    font-size: 20px !important;
 }
+
+}
+
+
 
 
 
