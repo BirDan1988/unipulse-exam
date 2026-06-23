@@ -592,3 +592,13 @@ min-height: 600px;
  
 }
 
+/* comapny stats */
+
+.company-states {
+    background-color: #f1cdd1;
+    margin: 64px auto;
+    padding: 32px 40px;
+    border-radius: 15px;
+    border: 1px solid #c33948;
+}
+
