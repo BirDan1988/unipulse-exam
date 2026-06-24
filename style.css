@@ -518,7 +518,7 @@ transition: all 0.3s ease;
     /* z-index: -1 !important; */
 
 
-.img-div::after {
+.img-div-overlay {
     content: "";
     position: absolute;
     bottom: 0;
@@ -532,7 +532,7 @@ transition: all 0.3s ease;
 }
 
 
-.student-block-content {
+.student-content-part {
     border-left:4px solid #c33948 ;
     padding-left: 20px !important;
 }
@@ -540,7 +540,7 @@ transition: all 0.3s ease;
 
 
 /* stundent-block-content */
-.student-block-content h2 {
+.studnet-content-part h2 {
     font-size: 35px !important;
     color: rgb(24, 49, 82);
 
@@ -595,11 +595,12 @@ min-height: 600px;
 /* comapny stats */
 
 .company-states {
-    background-color: #f1cdd1;
-    margin: 64px auto;
+    background-color: #FCF3F4;
+    margin: 40px auto;
     padding: 32px 40px;
     border-radius: 15px;
-    border: 1px solid #c33948;
+    border: 1px solid #f1d9dd;
 }
 
+/* testimonials */
 
