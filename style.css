@@ -604,3 +604,21 @@ min-height: 600px;
 
 /* testimonials */
 
+.review-main-card {
+    border-radius: 15px;
+}
+
+.reviewer-photo img {
+    border-radius: 15px ;
+    overflow: hidden;
+   
+}
+
+.review-content {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom:24px;
+    line-height: 28px;
+
+}
+
