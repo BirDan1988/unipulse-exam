@@ -621,5 +621,18 @@ min-height: 600px;
     padding-right: 24px;
     padding-bottom:24px;
     line-height: 28px;
+    z-index: 1;
 
 }
+
+.review-content-qouats {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 50px;
+    color: #e9dbdc;
+    font-family: "Raleway", sans-serif;
+    z-index: 2;
+}
+
+
