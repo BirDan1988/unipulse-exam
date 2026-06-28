@@ -311,7 +311,7 @@ box-sizing: border-box;
 }
 
 .section-3-title {
-    font-size: 35px;
+    font-size: 40px;
      font-family: "Raleway", sans-serif !important;
      color: rgb(24, 49, 82);
      font-weight: 700;
@@ -606,6 +606,7 @@ min-height: 600px;
     overflow: hidden !important;
     position: relative;
     transition: box-shadow 0.3s ease;
+    z-index: 2;
 
   
 }
@@ -647,7 +648,7 @@ min-height: 600px;
     padding-right: 24px;
     padding-bottom:24px;
     line-height: 28px;
-    z-index: 1;
+    
    
 
 }
@@ -662,5 +663,108 @@ min-height: 600px;
     z-index: -1;
     opacity: 0.1;
 }
+
+/* full stats */
+
+.stats-title-intro {
+border-left: 4px solid rgba(195, 57, 72,0.3) ;
+}
+
+.stats-title-intro p {
+    margin-left: 90px;
+    padding: 0px 12px;
+}
+
+.stats-banner {
+    margin: 40px auto;
+    padding: 40px 16px;
+    border-radius: 15px;
+     background: #d91a1a;
+background: linear-gradient(131deg, rgba(217, 26, 26, 1) 0%, rgba(217, 35, 50, 1) 21%, rgba(143, 24, 40, 1) 67%);
+}
+
+.stats-block {
+    position: relative;
+    
+    
+}
+
+.stats-block:not(:last-child)::after {
+    position: absolute;
+    content: "";
+    top: 20%;
+    right: 0;
+    height: 60%;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+            /* Empowering Schollar */
+
+
+            .image-showcase {
+                padding: 32px;
+                position: relative;
+            }
+
+.image-primary {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+
+.exp-badge {
+    border-radius: 15px;
+    padding: 20px;
+    top: -10px;
+    left: -10px;
+    overflow: hidden;
+    position: absolute ;
+}
+
+.image-secondary {
+    position: absolute;
+    width: 42%;
+    border: 5px solid rgb(214, 207, 207);
+    border-radius: 15px;
+    bottom: -1px;
+    right: -1px;
+    overflow: hidden;
+}
+
+.empower-detail-content h3 {
+    font-size: 36px !important;
+}
+
+.empower-detail-content p {
+    font-size: 17px !important;
+    line-height: 30px;
+}
+
+/* .empower-entry {
+
+} */
+
+.empower-number {
+    width: 48px;
+    height: 48px;
+    background-color:#F7E7E9 ;
+    border-radius: 50%;
+}
+.btn-main{
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: 3px solid #c33948 !important;
+    margin-right: 20px;
+}
+
+.info-btn {
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: 3px solid #d91a1a;
+    
+}
+  
+   
 
 

@@ -111,6 +111,15 @@
 .student-content-part h2 {
     font-size: 24px !important;    
 }
+
+.stats-title-heading h2 {
+    font-size: 30px !important;
+}
+
+.stats-title-intro p {
+    margin-left: 0 !important;
+}
+
 }
 
 
@@ -230,6 +239,42 @@
 
 .student-content-part h2 {
     font-size: 24px !important;    
+}
+
+.review-content {
+    padding-top: 0 !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.review-content h5 {
+    font-size: 16px !important;
+}
+
+.review-content p {
+    line-height: 22px !important;
+}
+
+.review-content span {
+    font-size: 12px !important;
+}
+
+.user-image-div {
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.stats-title-heading h2 {
+    font-size: 30px !important;
+}
+
+.stats-title-intro p {
+    margin-left: 0 !important;
+}
+
+.empower-detail-content h3 {
+  font-size: 20px !important;
+
 }
 
 }
