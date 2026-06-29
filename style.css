@@ -701,17 +701,28 @@ background: linear-gradient(131deg, rgba(217, 26, 26, 1) 0%, rgba(217, 35, 50, 1
             /* Empowering Schollar */
 
 
-            .image-showcase {
-                padding: 32px;
-                position: relative;
+    .image-showcase {
+         padding: 32px;
+        position: relative;
+       
+        
+    
             }
 
-.image-primary {
-    width: 100%;
+.img-primary {
     border-radius: 15px;
     overflow: hidden;
-    
+    transition: all 0.3s ease;
 }
+
+
+
+/* .img-primary img{
+    display:block !important;
+    width:100% !important;
+    height: auto !important;
+} */
+
 
 .exp-badge {
     border-radius: 15px;
@@ -730,6 +741,16 @@ background: linear-gradient(131deg, rgba(217, 26, 26, 1) 0%, rgba(217, 35, 50, 1
     bottom: -1px;
     right: -1px;
     overflow: hidden;
+   
+}
+
+.image-secondary img {
+     transition: all 0.3s ease;
+}
+
+.img-primary img,.image-secondary img:hover {
+    transform: scale(1.1) ;
+    overflow: hidden !important;
 }
 
 .empower-detail-content h3 {
@@ -750,21 +771,49 @@ background: linear-gradient(131deg, rgba(217, 26, 26, 1) 0%, rgba(217, 35, 50, 1
     height: 48px;
     background-color:#F7E7E9 ;
     border-radius: 50%;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
 }
+
+.empower-number:hover {
+    background-color: #c33948;
+    color: white !important;
+    transform: scale(1.1);
+}
+
+
 .btn-main{
     border-radius: 8px;
     padding: 12px 20px;
     border: 3px solid #c33948 !important;
     margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #c43041;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.fa-arrow-right {
+    transition: all 0.2s ease;
+}
+
+.btn-main:hover .fa-arrow-right {
+    transform: translateX(3px);
 }
 
 .info-btn {
     border-radius: 8px;
     padding: 12px 20px;
-    border: 3px solid #d91a1a;
-    
+    border: 3px solid #c43041; 
+    transition: all 0.3s ease;
 }
-  
+
+.info-btn:hover {
+    background-color: #c43041 !important;
+    color: white !important;
+}
    
 
 

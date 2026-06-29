@@ -272,9 +272,32 @@
     margin-left: 0 !important;
 }
 
-.empower-detail-content h3 {
-  font-size: 20px !important;
+ .empower-section .empower-detail-content h3 {
+  font-size: 28px !important;
 
+}
+
+.empower-content h5 {
+    font-size: 17px !important;
+}
+
+.empower-entry .empower-content p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+.exp-badge {
+    padding: 10px !important;
+    left: -1px !important;
+    top: -1px !important;
+}
+
+.exp-badge h3 {
+    font-size: 18px;
+}
+
+.exp-badge p {
+    font-size: 10px;
 }
 
 }
