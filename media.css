@@ -46,6 +46,10 @@
     border: none !important;
 }
 
+.news-section {
+    width: 100% !important;
+}
+
 }
 
 @media (min-width:577px) and (max-width:768px) {
@@ -118,6 +122,9 @@
 
 .stats-title-intro p {
     margin-left: 0 !important;
+}
+.news-section {
+    width: 100% !important;
 }
 
 }
@@ -299,6 +306,11 @@
 .exp-badge p {
     font-size: 10px;
 }
+
+.events-tabs a {
+    font-size: 14px !important;
+}
+
 
 }
 
