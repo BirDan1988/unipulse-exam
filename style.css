@@ -917,6 +917,22 @@ background: linear-gradient(131deg, rgba(217, 26, 26, 1) 0%, rgba(217, 35, 50, 1
 
 /* events */
 
+.events-border {
+    border-radius: 12px !important;
+}
+
+.feature-events-img {
+    height: 100% !important;
+    
+}
+
+.feature-events-img img{
+    
+    height: 100% !important;
+    object-fit: cover !important;
+    
+}
+
 .feature-events-content {
     padding: 32px 40px;
 }
@@ -927,3 +943,26 @@ background: linear-gradient(131deg, rgba(217, 26, 26, 1) 0%, rgba(217, 35, 50, 1
     font-size: 11px !important;
 
 }
+
+.feature-events-date {
+ background-color: #F9EBEC;
+ padding: 8px 14px;
+ border-radius: 10px;
+}
+
+.feature-events-date p {
+ font-size: 11px !important;
+
+}
+
+.feature-events-content .btn {
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+}
+
+.feature-events-content .btn:hover {
+    transform: translateX(5px);
+    background-color: #b22a3a !important;
+}
+
+

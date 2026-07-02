@@ -127,6 +127,14 @@
     width: 100% !important;
 }
 
+.feature-events-content h3 {
+    font-size: 20px !important;
+}
+
+.feature-events-content {
+    padding: 24px !important;
+}
+
 }
 
 
@@ -309,6 +317,14 @@
 
 .events-tabs a {
     font-size: 14px !important;
+}
+
+.feature-events-content h3 {
+    font-size: 20px !important;
+}
+
+.feature-events-content {
+    padding: 24px !important;
 }
 
 
